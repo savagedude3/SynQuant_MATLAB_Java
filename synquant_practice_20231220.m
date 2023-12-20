@@ -90,7 +90,7 @@ BW = imbinarize(out_overall);
 
 %count with bwconncomp https://www.mathworks.com/help/images/ref/bwconncomp.html
 CC = bwconncomp(BW);
-synapse_count = CC.NumObjects
+synapse_count = CC.NumObjects;
 
 %write binarized image to a file
 
